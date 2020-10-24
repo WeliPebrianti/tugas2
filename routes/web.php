@@ -37,3 +37,27 @@ Route::get('/gallery', function () {
 Route::get('/contact_us', function () {
      return view('contact_us');
  });
+Route::get('/admin', function () {
+     return view('layouts/admin');
+ });
+Route::get('/about_us2', function () {
+     return view('about_us2');
+ });
+Route::get('/contact_us2', function () {
+     return view('contact_us2');
+ });
+Route::get('/shop2', function () {
+     return view('shop2');
+ });
+Route::get('/gallery2', function () {
+     return view('gallery2');
+ });
+Route::get('/pelanggan', function () {
+     return view('pelanggan');
+ });
+Route::get('/pemasok', function () {
+     return view('pemasok');
+ });
+Route::get('/login2', function () {
+     return view('login2');
+ });
