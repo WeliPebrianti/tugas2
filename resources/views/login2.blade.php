@@ -178,7 +178,7 @@ a{color:inherit;text-decoration:none}
 					<label for="check"><span class="icon"></span> Keep me Signed in</label>
 				</div>
 				<div class="group">
-					<a href="{{url('admin')}}" class="btn btn-submit">Login</a>
+					<a href="{{url('admin')}}" class="btn btn-submit">LOGIN</a>
 					<!-- <input type="submit" class="button" value="Sign In"> -->
 				</div>
 				<div class="hr"></div>
