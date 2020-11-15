@@ -160,7 +160,7 @@ a{color:inherit;text-decoration:none}
 <body>
 <div class="login-wrap">
 	<div class="login-html">
-		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Admin Wely FRUIT FRESH</label>
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Welcome to FRUIT FRESH</label>
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
 		<div class="login-form">
@@ -178,7 +178,7 @@ a{color:inherit;text-decoration:none}
 					<label for="check"><span class="icon"></span> Keep me Signed in</label>
 				</div>
 				<div class="group">
-					<a href="{{url('admin')}}" class="btn btn-submit">LOGIN</a>
+					<a href="{{url('layout')}}" class="btn btn-submit">SIG IN</a>
 					<!-- <input type="submit" class="button" value="Sign In"> -->
 				</div>
 				<div class="hr"></div>
@@ -218,3 +218,8 @@ a{color:inherit;text-decoration:none}
 
 </body>
 </html>
+
+
+
+
+

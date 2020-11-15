@@ -1,7 +1,7 @@
  <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon">
-          <img src="img/logo/logo2.png">
+          <img src="{{ URL :: asset ('img/logo/logo2.png')}}">
         </div>
         <div class="sidebar-brand-text mx-3">RuangAdmin</div>
       </a>
@@ -15,16 +15,16 @@
       
       <li class="nav-item">
         <li class="nav-item">
-        <a class="nav-link" href="{{url('about_us2')}}">
+        <a class="nav-link" href="{{url('about')}}">
           <i class="fas fa-fw fa-palette"></i>
-          <span>About Us</span>
+          <span>About</span>
         </a>
       </li>
       <hr>
         
      <li class="nav-item">
         <li class="nav-item">
-        <a class="nav-link" href="{{url('shop2')}}">
+        <a class="nav-link" href="{{url('shop')}}">
           <i class="fas fa-fw fa-palette"></i>
           <span>Shop</span>
         </a>
@@ -32,16 +32,16 @@
       <hr>
      <li class="nav-item">
         <li class="nav-item">
-        <a class="nav-link" href="{{url('gallery2')}}">
+        <a class="nav-link" href="{{url('gallery')}}">
           <i class="fas fa-fw fa-palette"></i>
           <span>Gallery</span>
         </a>
       </li>
       <hr>
     <li class="nav-item">
-        <a class="nav-link" href="{{url('contact_us2')}}">
+        <a class="nav-link" href="{{url('contact')}}">
           <i class="fas fa-fw fa-palette"></i>
-          <span>Contact Us</span>
+          <span>Contact</span>
         </a>
       </li>
       <hr>
